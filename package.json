@@ -1,0 +1,21 @@
+{
+  "name": "@omgdev/libmonorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build -ws",
+    "deploy": "npm publish --workspaces --access public"
+  },
+  "workspaces": [
+    "./packages/*"
+  ],
+  "author": "Tarunesh Gautam",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  }
+}

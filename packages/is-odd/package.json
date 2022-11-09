@@ -1,0 +1,17 @@
+{
+  "name": "@omgdev/is-odd",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": ["dist/**/*"],
+  "keywords": ["even-odd"],
+  "author": "Tarunesh Gautam",
+  "license": "ISC"
+}
